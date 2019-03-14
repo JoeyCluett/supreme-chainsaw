@@ -26,7 +26,7 @@ int main(int argc,char*argv[]) {
         cin >> current_hand;
 
         if(current_hand[1] == suit_c) {
-            total_points += dominant_pts[(char)current_hand[0]];
+            total_points += dominant_pts[current_hand[0]];
         }
         else {
             total_points += nondominant_pts[current_hand[0]];

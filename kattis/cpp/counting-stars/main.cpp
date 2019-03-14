@@ -75,8 +75,6 @@ int main(int argc, char* argv[]) {
 
     while(cin) {
         auto r = coords();
-        //cout << r.second << " by " << r.first << endl;
-
         vector<string> field;
 
         {
@@ -86,11 +84,6 @@ int main(int argc, char* argv[]) {
                 field.push_back(in);
             }
         }
-
-        // print the field to make sure we got it right
-        //for(auto& s : field)
-        //    cout << s << endl << flush;
-        //cout << endl;
 
         int num_stars = 0;
 
